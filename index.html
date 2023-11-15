@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Landing-Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/70c8b821c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <main id="content">
+
+        <!--HEADER-->
+        <header id="header">
+            <div class="logo">
+                <img loading="lazy" src="./assests/original.png" alt="" id="header-img">
+                <h1>DEV</h1>
+            </div>
+
+            <nav id="nav-bar">
+                <ul class="activado">
+                    <li>
+                        <a href="#inicio-hero" class="nav-link">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#nosotros" class="nav-link">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#servicios" class="nav-link">Servicios</a>
+                    </li>
+                </ul>
+
+                <button class="menu" type="button">
+                    <span class="br-1"></span>
+                    <span class="br-2"></span>
+                    <span class="br-3"></span>
+                </button>
+            </nav>
+
+        </header>
+
+        <!--HERO-->
+        <section id="inicio-hero">
+
+            <article id="presentacion">
+
+                <h2>Si tu negocio rinde, </h2>
+                <div class="paragraph">
+                    <p class="paragraph">Aumentamos tus ventas y mejoramos tu rentabilidad</p>
+                    <p class="paragraph">Miles de comerciantes como tú ya lo han logrado</p>
+                </div>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <label for="">Ingresa su email para comenzar</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email adress" required>
+                    <input type="submit" value="Siguiente" id="submit">
+                </form>
+
+            </article>
+
+            <article>
+                <img id="ilustracion" src="./assests/undraw_mobile_devdolph.svg" alt="ilustracion ">
+            </article>
+
+        </section>
+
+
+        <section id="nosotros">
+
+            <div class="nosotros-descripcion">
+                <h3>Quienes somos?</h3>
+
+                <p>DevDolph se creó con el objetivo de contribuir al desarrollo y comercialización de soluciones
+                    tecnológicas para puntos de
+                    venta. En esa línea crea un software abierto para computadoras personales que funcionan como puntos
+                    de
+                    venta (POS). Apoyado en dicho POS se desarrolló un innovador modelo que se adaptó, y continúa
+                    adaptándose, a la realidad del canal minorista logrando cubrir todas sus necesidades de gestión y
+                    administración.
+                </p>
+            </div>
+
+            <iframe id="video" src="https://www.youtube.com/embed/t5wbuS9Wek4?si=SBz2vDzkAEHfoGiR"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+        <section id="servicios">
+            <h3 class="titulo-servicios">Nuestros Servicios</h3>
+            <div id="servicios-box">
+                <article class="planes">
+                    <img loading="lazy" class="img-planes" src="assests/undraw_my_code_snippets_re_4adu.svg" alt="">
+                    <a href="#">
+                        <h4 class="titulo-planes">Creamos tu software</h4>
+                    </a>
+                    <p>Desarrollamos el software ideal para el negocio a tu medida. Agilizá y ahorra tiempo en financiar
+                        y administrar tu empresa.
+                    </p>
+                    <input class="boton-planes" type="submit" value="Consultar">
+                </article>
+
+                <article class="planes">
+                    <img loading="lazy" class="img-planes" src="assests/undraw_product_iteration_kjok.svg" alt="">
+                    <a href="#">
+                        <h4 class="titulo-planes">Asesoramiento IT</h4>
+                    </a>
+                    <p>Contamos con empleados altamente calificados en el rubro, tanto desarrolladores como analistas.
+                    </p>
+                    <input class="boton-planes" type="submit" value="Consultar">
+                </article>
+
+                <article class="planes">
+                    <img loading="lazy" class="img-planes" src="assests/undraw_progressive_app_m-9-ms.svg" alt="">
+                    <a href="#">
+                        <h4 class="titulo-planes">Administramos tus datos</h4>
+                    </a>
+                    <p>Usamos Bases de Datos SQL como herramienta para gestionar los datos de la empresa en nuestras
+                        plataformas (App, Escritorio y Web)
+                    </p>
+                    <input class="boton-planes" type="submit" value="Consultar">
+
+                </article>
+            </div>
+        </section>
+
+        <footer id="contacto">
+
+            <div id="contacto-1">
+
+                <div class="logo-footer">
+                    <img loading="lazy" src="./assests/original.png" alt="" id="header-img">
+                    <h1>DEV</h1>
+                </div>
+
+                <div class="apps">
+                    <h4>Descargá nuestra App</h4>
+                    <a href="http://" target="_blank">
+                        <img loading="lazy" src="assests/Google Play Badge Spanish Disponible En Google Play.svg"
+                            alt="Google-Play-Store">
+                    </a>
+
+                    <a href="http://" target="_blank">
+                        <img loading="lazy" src="assests/icon_apple_store.svg" alt="Apple-Store">
+                    </a>
+                </div>
+
+                <p>Y disfrutá de una experiencia mas sencilla, comoda y rapida!</p>
+            </div>
+
+            <div id="contacto-2">
+
+                <div id="condiciones">
+
+                    <p class="reclamo">Para realizar un reclamo podés
+                        <a class="reclamo" href="http://" target="_blank">ingresar aquí</a>
+                    </p>
+                    <div>
+                        <a href="http://" target="_blank">Términos y condiciones de uso</a>
+                        <a href="http://" target="_blank">Politica de Privacidad</a>
+                    </div>
+                </div>
+
+                <div id="social">
+                    <a href="http://" target="_blank">
+                        <i id="icon" class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="http://" target="_blank">
+                        <i id="icon" class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="http://" target="_blank">
+                        <i id="icon" class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <p>
+                    &copy;2023 DevDolph. All rights reserved.
+                </p>
+
+            </div>
+
+
+
+        </footer>
+
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
